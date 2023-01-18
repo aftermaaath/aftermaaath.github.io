@@ -1,11 +1,11 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_Examples
-title: Examples
+title: Test
 
 # post specific
 # if not specified, .name will be used from _data/owner/[language].yml
-author: 
+author: aftermath
 # multiple category is not supported
 category: test
 # multiple tag entries are possible
@@ -41,3 +41,4 @@ date: 2023-01-18 17:58:06 +0900
 
 # H1
 ## H2
+中文能寫嗎？
