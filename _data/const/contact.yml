@@ -13,7 +13,7 @@ github:
   url: "https://github.com"
 email:
   icon: "fa fa-envelope-o"
-  url: "ella920711@gmail.com"
+  url: "mailto:ella920711@gmail.com"
 # linkedin:
 #   icon: "fa fa-linkedin"
 #   url: "https://www.linkedin.com/in"
@@ -32,7 +32,7 @@ email:
 #   url: "https://www.youtube.com/channel"
 facebook:
   icon: "fa fa-facebook"
-  url: "https://www.facebook.com/"
+  url: "https://www.facebook.com"
 # add your new contact
 # your_new_contact:
 #   icon: "fa fa-font"
