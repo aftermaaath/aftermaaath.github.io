@@ -1,20 +1,20 @@
 a page just for fun.
 
 
-## structure of the files and directories
+## Structure of the files and directories
 ### \_data
 #### conf
-- main.yml
+- main.yml <br>
 General settings, such as langauage, fonts, cookies...
-- others.yml
+- others.yml <br>
 Settings for each subpages
-- posts.yml
+- posts.yml <br>
 Settings for posts, such as query and share.
 
 #### const
-- contact.yml
+- contact.yml <br>
 Contact info constants. Including icon, url.
-- share.yml
+- share.yml <br>
 Share links constants.
 
 #### lang

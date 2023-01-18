@@ -47,15 +47,16 @@ meta_common_description: "Your meta description."
 # contact options (side nav bottom and about page)
 # the order of the items will be shown as here.
 # comment to remove any contact item
+# the "" is to add something after the url
 contacts:
-  - github: "Github"
-  #- email: ""
+  - github: "aftermaaath"
+  - email: "ella920711@gmail.com"
   #- linkedin: ""
   #- twitter: ""
   #- mastodon: ""
   #- instagram: ""
   #- youtube: ""
-  #- facebook: ""
+  - facebook: "ella.lee.583"
 # to add more, check the _data/const/contact.yml file
 #  - your_new_contact: ""
 
