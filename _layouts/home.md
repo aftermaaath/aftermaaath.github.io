@@ -35,8 +35,8 @@ layout: default
     </div>
   </div>
   <div class="home-intro-text markdown-style">
-    {{ content }}
-    {{ content }}
+    {%- comment -%} {{ content }} {%- endcomment -%}
+    <p>test</p>
   </div>
 </div>
 
