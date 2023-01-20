@@ -23,3 +23,6 @@ Such as texts to display, date form, and so on.
 
 #### owner
 Personal information, such as brand name, name, other titles.
+
+### \_layouts
+main file(.md) of each pages.

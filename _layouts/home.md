@@ -36,7 +36,9 @@ layout: default
   </div>
   <div class="home-intro-text markdown-style">
     {%- comment -%} {{ content }} {%- endcomment -%}
-    <p>test</p>
+    <h3>aftermath (n.)</h3>
+    <p>The period that follows an unpleasant event or accident, and the effects that it causes</p>
+    <p>--- Cambridge Dictionary</p>
   </div>
 </div>
 
