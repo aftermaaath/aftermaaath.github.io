@@ -36,6 +36,7 @@ layout: default
   </div>
   <div class="home-intro-text markdown-style">
     {{ content }}
+    {{ content }}
   </div>
 </div>
 
