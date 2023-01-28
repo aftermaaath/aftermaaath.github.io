@@ -41,6 +41,8 @@ date: 2023-01-21 23:43:08 +0900
 
 
 ### 前言 ~~（廢話）~~
+<div style="height: 10px">
+</div>
 
 ##### 純廢話
 面試的季節又到了，去年面試完就一直很猶豫要不要把心得發出來。因為覺得自己廢廢的只是運氣不錯才賽到，其實學經歷都不贏別人，然後又不太想被認哈哈。
@@ -83,7 +85,7 @@ date: 2023-01-21 23:43:08 +0900
 ### 前言 （不是廢話）
 
 先講結論。一階有過的校系與對應的二階結果如下：
-<ul style="background-color:#D2E9FF">
+<ul style="background-color:#ECF5FF; padding-top: 10px; padding-bottom: 10px; border-radius: 10px;">
     <li>清大資工 APCS 組 --- 正取</li>
     <li>交大資工 APCS 組 --- 備5</li>
     <li>成大資工 APCS 組 --- 正取</li>
@@ -91,7 +93,7 @@ date: 2023-01-21 23:43:08 +0900
 </ul>
 
 然後是一階要看的成績：
-<ul style="background-color:#D2E9FF">
+<ul style="background-color:#ECF5FF; padding-top: 10px; padding-bottom: 10px; border-radius: 10px;">
     <li>學測數學：11級</li>
     <li>APCS（觀念題 / 實作題）：5 / 5</li>
     <li>學測英+數+自：40級（只有理學院學士班的超篩要看，APCS 不用）</li>
@@ -193,10 +195,7 @@ Q5：上大學後會想繼續打比賽嗎？<br>
 會。本身對演算法比賽很有興趣，其他比賽也願意嘗試。
 
 #### 第二間
-<script type="text/javascript"
-  src="https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 一張方格圖，自 $i$ 到 $j$ （任意相鄰的兩格）有代價 $k\_{ij}$，圖的四邊有不規則邊界，中心有不規則障礙物（一些連通的格子，位置不一定在中心，保證與邊界不連通），問繞過障礙物的最小環？
-</script>
 
 有附圖，大概長這樣：
 
@@ -243,9 +242,9 @@ Q5：未來還想做的作品有什麼？
 <br>
 <div style="background-color:#E0E0E0; padding: 10px 10px 10px 10px; border-left: 5px solid #004B97">
 <h5>小心得</h5>
-<p>我答得很爛所以就不放我的回答了@@</p>
-<p>感覺交大的教授們似乎比較注重作品跟專題，我覺得我準備不足，全部都沒答好，沒錄取是理所當然的。也不知道是不是自己表現不好的關係，覺得這間的教授特別嚴肅、特別可怕。最後感覺自己沒講到什麼就出來了。</p>
-<p>還好這間不是第一間面試，不然心態應該會全炸掉。</p>
+<p>我答得很爛所以就不放我的回答了@@
+感覺交大的教授們似乎比較注重作品跟專題，我覺得我準備不足，全部都沒答好，沒錄取是理所當然的。也不知道是不是自己表現不好的關係，覺得這間的教授特別嚴肅、特別可怕。最後感覺自己沒講到什麼就出來了。
+還好這間不是第一間面試，不然心態應該會全炸掉。</p>
 </div>
 
 <br>
@@ -273,17 +272,11 @@ Q4：為什麼想讀數學？
 
 Q1：什麼是函數？
 
-<script type="text/javascript"
-  src="https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 Q2：$[0,1]$ 上有一函數 $f$，滿足對於任兩數 $x_1, x_2\in[0,1]$ ，都滿足 $|f(x_1)-f(x_2)|<|x_1-x_2|$ ，請說明 $|f(x_1)-f(x_2)|<\frac{1}{2}$。
-</script>
 
 Q3：什麼是多項式？
 
-<script type="text/javascript"
-  src="https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 Q4：求 $\Sigma_{k=1}^{n} \frac{x}{k!}=0$ 的實數解數量。
-</script>
 
 #### 第三間
 
@@ -316,9 +309,9 @@ Q12：用一個詞形容同學對你的印象。
 <br>
 <div style="background-color:#E0E0E0; padding: 10px 10px 10px 10px; border-left: 5px solid #004B97">
 <h5>小心得</h5>
-<p>教授人都很好，現場還供食物，但我太緊張了吃不下。i</p>
-<p>題目不會也沒關係，想到什麼講什麼，教授都會聽。</p>
-<p>最後一間的教授真的很嗨，完全不像在面試，比較像是閒話家常，她還跟我聊了自己家裡的事情w</p>
+<p>教授人都很好，現場還供食物，但我太緊張了吃不下。
+題目不會也沒關係，想到什麼講什麼，教授都會聽。
+最後一間的教授真的很嗨，完全不像在面試，比較像是閒話家常，她還跟我聊了自己家裡的事情w</p>
 </div>
 
 <br>
