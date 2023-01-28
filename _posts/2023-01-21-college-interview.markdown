@@ -39,6 +39,9 @@ date: 2023-01-21 23:43:08 +0900
 #published: false
 ---
 
+<script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 
 ### 前言 ~~（廢話）~~
 <div style="height: 10px">
@@ -160,7 +163,7 @@ Q10：好奇問，如果清交成都上了，會選哪間？<br>
 還在考慮中。自己比較想讀成大（善意的謊言），原因是清交資工會偏硬體，但我對硬體沒有太大的興趣（實話）。還在考慮的原因是成大離住家遠，還需要跟家裡討論（實話）。
  
 <br>
-<div style="background-color:#E0E0E0; padding: 10px 10px 10px 10px; border-left: 5px solid #004B97">
+<div style="background-color:#F0F0F0; padding: 10px 10px 10px 10px; border-left: 5px solid #004B97">
 <h5>小心得</h5>
 <p>教授人很好，氣氛很放鬆。因為面試的時間很長所以不用怕有什麼重要的東西來不及講。我覺得是三間中最愉快的面試經驗。</p>
 </div>
@@ -195,7 +198,7 @@ Q5：上大學後會想繼續打比賽嗎？<br>
 會。本身對演算法比賽很有興趣，其他比賽也願意嘗試。
 
 #### 第二間
-一張方格圖，自 $i$ 到 $j$ （任意相鄰的兩格）有代價 $k\_{ij}$，圖的四邊有不規則邊界，中心有不規則障礙物（一些連通的格子，位置不一定在中心，保證與邊界不連通），問繞過障礙物的最小環？
+一張方格圖，自 \(i\) 到 $j$ （任意相鄰的兩格）有代價 $k\_{ij}$，圖的四邊有不規則邊界，中心有不規則障礙物（一些連通的格子，位置不一定在中心，保證與邊界不連通），問繞過障礙物的最小環？
 
 有附圖，大概長這樣：
 
@@ -216,7 +219,7 @@ Q4：實作上你會用哪個演算法？
 Q4-1：請解釋Dijkstra如何實作。
 
 <br>
-<div style="background-color:#E0E0E0; padding: 10px 10px 10px 10px; border-left: 5px solid #004B97">
+<div style="background-color:#F0F0F0; padding: 10px 10px 10px 10px; border-left: 5px solid #004B97">
 <h5>小心得</h5>
 <p>抽到能發揮的題目真的很幸運，只能說籤運真的有夠重要。教授人也都蠻好的~ 面試前或面試完後可以去一間討論室，裡面有資工系的學長們能為你解答各種問題。我是面試完去的，當時心情還沒平復，整個腦袋一片空白，好像不經大腦地問了一些怪問題（真的很抱歉@@</p>
 </div>
@@ -240,7 +243,7 @@ Q4：未來進資工想學習的領域有哪些？具體是什麼部分？
 Q5：未來還想做的作品有什麼？
 
 <br>
-<div style="background-color:#E0E0E0; padding: 10px 10px 10px 10px; border-left: 5px solid #004B97">
+<div style="background-color:#F0F0F0; padding: 10px 10px 10px 10px; border-left: 5px solid #004B97">
 <h5>小心得</h5>
 <p>我答得很爛所以就不放我的回答了@@
 感覺交大的教授們似乎比較注重作品跟專題，我覺得我準備不足，全部都沒答好，沒錄取是理所當然的。也不知道是不是自己表現不好的關係，覺得這間的教授特別嚴肅、特別可怕。最後感覺自己沒講到什麼就出來了。
@@ -268,7 +271,7 @@ Q3：有 10 個小朋友排成一列，老師有 10 頂黑帽 9 頂白帽，為�
 Q4：為什麼想讀數學？
 
 #### 第二間
-下列的 Q1、Q3 是口頭問的；Q2、Q4 直接寫在白板上。教授是照順序問問題。我還沒答到 Q3 時間就到了，Q4 也沒機會答（不知道有沒有背錯）。教授看你沒想法會引導你思考問題。
+下列的 Q1、Q3 是口頭問的；Q2、Q4 直接寫在白板上。教授是照順序問問題。我還沒答到 Q3 時間就到了，Q4 也沒機會答（不知道有沒有背錯題目）。教授看你沒想法會引導你思考問題。
 
 Q1：什麼是函數？
 
@@ -307,7 +310,7 @@ Q11：家長對學業的管教如何？
 Q12：用一個詞形容同學對你的印象。
 
 <br>
-<div style="background-color:#E0E0E0; padding: 10px 10px 10px 10px; border-left: 5px solid #004B97">
+<div style="background-color:#F0F0F0; padding: 10px 10px 10px 10px; border-left: 5px solid #004B97">
 <h5>小心得</h5>
 <p>教授人都很好，現場還供食物，但我太緊張了吃不下。
 題目不會也沒關係，想到什麼講什麼，教授都會聽。
