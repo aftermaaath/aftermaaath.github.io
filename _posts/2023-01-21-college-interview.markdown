@@ -39,12 +39,8 @@ date: 2023-01-21 23:43:08 +0900
 #published: false
 ---
 
-<script type="text/javascript"
-  src="https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
 
 ### 前言 ~~（廢話）~~
-<br>
 
 ##### 純廢話
 面試的季節又到了，去年面試完就一直很猶豫要不要把心得發出來。因為覺得自己廢廢的只是運氣不錯才賽到，其實學經歷都不贏別人，然後又不太想被認哈哈。
@@ -87,7 +83,7 @@ date: 2023-01-21 23:43:08 +0900
 ### 前言 （不是廢話）
 
 先講結論。一階有過的校系與對應的二階結果如下：
-<ul style="background-color:#C4E1FF">
+<ul style="background-color:#D2E9FF">
     <li>清大資工 APCS 組 --- 正取</li>
     <li>交大資工 APCS 組 --- 備5</li>
     <li>成大資工 APCS 組 --- 正取</li>
@@ -95,7 +91,7 @@ date: 2023-01-21 23:43:08 +0900
 </ul>
 
 然後是一階要看的成績：
-<ul style="background-color:#C4E1FF">
+<ul style="background-color:#D2E9FF">
     <li>學測數學：11級</li>
     <li>APCS（觀念題 / 實作題）：5 / 5</li>
     <li>學測英+數+自：40級（只有理學院學士班的超篩要看，APCS 不用）</li>
@@ -161,7 +157,8 @@ Q9：你好像在數學方面也有一些成果，有沒有考慮就讀數學系
 Q10：好奇問，如果清交成都上了，會選哪間？<br>
 還在考慮中。自己比較想讀成大（善意的謊言），原因是清交資工會偏硬體，但我對硬體沒有太大的興趣（實話）。還在考慮的原因是成大離住家遠，還需要跟家裡討論（實話）。
  
-<div style="background-color:#E0E0E0">
+<br>
+<div style="background-color:#E0E0E0; padding: 10px 10px 10px 10px; border-left: 5px solid #004B97">
 <h5>小心得</h5>
 <p>教授人很好，氣氛很放鬆。因為面試的時間很長所以不用怕有什麼重要的東西來不及講。我覺得是三間中最愉快的面試經驗。</p>
 </div>
@@ -196,7 +193,10 @@ Q5：上大學後會想繼續打比賽嗎？<br>
 會。本身對演算法比賽很有興趣，其他比賽也願意嘗試。
 
 ### 第二間
+<script type="text/javascript"
+  src="https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 一張方格圖，自 $i$ 到 $j$ （任意相鄰的兩格）有代價 $k\_{ij}$，圖的四邊有不規則邊界，中心有不規則障礙物（一些連通的格子，位置不一定在中心，保證與邊界不連通），問繞過障礙物的最小環？
+</script>
 
 有附圖，大概長這樣：
 
@@ -216,7 +216,8 @@ Q4：實作上你會用哪個演算法？
 
 Q4-1：請解釋Dijkstra如何實作。
 
-<div style="background-color:#E0E0E0">
+<br>
+<div style="background-color:#E0E0E0; padding: 10px 10px 10px 10px; border-left: 5px solid #004B97">
 <h5>小心得</h5>
 <p>抽到能發揮的題目真的很幸運，只能說籤運真的有夠重要。教授人也都蠻好的~ 面試前或面試完後可以去一間討論室，裡面有資工系的學長們能為你解答各種問題。我是面試完去的，當時心情還沒平復，整個腦袋一片空白，好像不經大腦地問了一些怪問題（真的很抱歉@@</p>
 </div>
@@ -239,7 +240,8 @@ Q4：未來進資工想學習的領域有哪些？具體是什麼部分？
 
 Q5：未來還想做的作品有什麼？
 
-<div style="background-color:#E0E0E0">
+<br>
+<div style="background-color:#E0E0E0; padding: 10px 10px 10px 10px; border-left: 5px solid #004B97">
 <h5>小心得</h5>
 <p>我答得很爛所以就不放我的回答了@@</p>
 <p>感覺交大的教授們似乎比較注重作品跟專題，我覺得我準備不足，全部都沒答好，沒錄取是理所當然的。也不知道是不是自己表現不好的關係，覺得這間的教授特別嚴肅、特別可怕。最後感覺自己沒講到什麼就出來了。</p>
@@ -271,11 +273,17 @@ Q4：為什麼想讀數學？
 
 Q1：什麼是函數？
 
+<script type="text/javascript"
+  src="https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 Q2：$[0,1]$ 上有一函數 $f$，滿足對於任兩數 $x_1, x_2\in[0,1]$ ，都滿足 $|f(x_1)-f(x_2)|<|x_1-x_2|$ ，請說明 $|f(x_1)-f(x_2)|<\frac{1}{2}$。
+</script>
 
 Q3：什麼是多項式？
 
+<script type="text/javascript"
+  src="https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 Q4：求 $\Sigma_{k=1}^{n} \frac{x}{k!}=0$ 的實數解數量。
+</script>
 
 ### 第三間
 
@@ -305,7 +313,8 @@ Q11：家長對學業的管教如何？
 
 Q12：用一個詞形容同學對你的印象。
 
-<div style="background-color:#E0E0E0">
+<br>
+<div style="background-color:#E0E0E0; padding: 10px 10px 10px 10px; border-left: 5px solid #004B97">
 <h5>小心得</h5>
 <p>教授人都很好，現場還供食物，但我太緊張了吃不下。i</p>
 <p>題目不會也沒關係，想到什麼講什麼，教授都會聽。</p>
