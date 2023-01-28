@@ -39,8 +39,10 @@ date: 2023-01-21 23:43:08 +0900
 #published: false
 ---
 
-<script type="text/javascript"
-  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript">
 </script>
 
 ### 前言 ~~（廢話）~~
@@ -245,7 +247,7 @@ Q5：未來還想做的作品有什麼？
 <br>
 <div style="background-color:#F0F0F0; padding: 10px 10px 10px 10px; border-left: 5px solid #004B97">
 <h5>小心得</h5>
-<p>我答得很爛所以就不放我的回答了@@
+<p>我答得很爛所以就不放我的回答了@@<br>
 感覺交大的教授們似乎比較注重作品跟專題，我覺得我準備不足，全部都沒答好，沒錄取是理所當然的。也不知道是不是自己表現不好的關係，覺得這間的教授特別嚴肅、特別可怕。最後感覺自己沒講到什麼就出來了。
 還好這間不是第一間面試，不然心態應該會全炸掉。</p>
 </div>
@@ -312,8 +314,8 @@ Q12：用一個詞形容同學對你的印象。
 <br>
 <div style="background-color:#F0F0F0; padding: 10px 10px 10px 10px; border-left: 5px solid #004B97">
 <h5>小心得</h5>
-<p>教授人都很好，現場還供食物，但我太緊張了吃不下。
-題目不會也沒關係，想到什麼講什麼，教授都會聽。
+<p>教授人都很好，現場還供食物，但我太緊張了吃不下。<br>
+題目不會也沒關係，想到什麼講什麼，教授都會聽。<br>
 最後一間的教授真的很嗨，完全不像在面試，比較像是閒話家常，她還跟我聊了自己家裡的事情w</p>
 </div>
 
