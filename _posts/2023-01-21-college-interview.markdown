@@ -192,7 +192,7 @@ Q4-1：請介紹 Arduino 作品。<br>
 Q5：上大學後會想繼續打比賽嗎？<br>
 會。本身對演算法比賽很有興趣，其他比賽也願意嘗試。
 
-### 第二間
+#### 第二間
 <script type="text/javascript"
   src="https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 一張方格圖，自 $i$ 到 $j$ （任意相鄰的兩格）有代價 $k\_{ij}$，圖的四邊有不規則邊界，中心有不規則障礙物（一些連通的格子，位置不一定在中心，保證與邊界不連通），問繞過障礙物的最小環？
@@ -285,7 +285,7 @@ Q3：什麼是多項式？
 Q4：求 $\Sigma_{k=1}^{n} \frac{x}{k!}=0$ 的實數解數量。
 </script>
 
-### 第三間
+#### 第三間
 
 就是問跟備審有關的問題。教授很健談，蠻像在閒聊的。
 
