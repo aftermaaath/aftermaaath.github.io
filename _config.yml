@@ -28,7 +28,6 @@ defaults:
     values:
       layout: "post"
       permalink: /posts/:path
-      mathjax: true
 
   # for multilingual posts
   - scope:
