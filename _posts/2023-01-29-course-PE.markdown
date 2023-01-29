@@ -1,0 +1,73 @@
+---
+# multilingual page pair id, this must pair with translations of this page. (This name must be unique)
+lng_pair: id_Examples
+title: 修課心得 -- 體育 
+
+# post specific
+# if not specified, .name will be used from _data/owner/[language].yml
+author: aftermaaath
+# multiple category is not supported
+category: nthu-course 
+# multiple tag entries are possible
+tags: [nthu, course]
+# thumbnail image for post
+img: ":course-pe.jpg"
+# disable comments on this page
+#comments_disable: true
+
+# publish date
+date: 2023-01-29 23:11:21 +0900
+
+# seo
+# if not specified, date will be used.
+#meta_modify_date: 2022-02-10 08:11:06 +0900
+# check the meta_common_description in _data/owner/[language].yml
+#meta_description: ""
+
+# optional
+# please use the "image_viewer_on" below to enable image viewer for individual pages or posts (_posts/ or [language]/_posts folders).
+# image viewer can be enabled or disabled for all posts using the "image_viewer_posts: true" setting in _data/conf/main.yml.
+#image_viewer_on: true
+# please use the "image_lazy_loader_on" below to enable image lazy loader for individual pages or posts (_posts/ or [language]/_posts folders).
+# image lazy loader can be enabled or disabled for all posts using the "image_lazy_loader_posts: true" setting in _data/conf/main.yml.
+#image_lazy_loader_on: true
+# exclude from on site search
+#on_site_search_exclude: true
+# exclude from search engines
+#search_engine_exclude: true
+# to disable this page, simply set published: false or delete this file
+#published: false
+---
+
+<!-- outline-start -->
+
+體育課的修課心得（大一體育、游泳、羽球）。
+
+<!-- outline-end -->
+
+<br>
+
+### 大一體育 / 朱真儀
+多虧了這門課，認識了班上的女生們，跟一點點點的男生。<br>
+老師是蠻有原則的人，但人挺好的。像是會要求上課時要一直活動（不能坐在旁邊行光合作用）、對不能補點名這件事非常堅持之類的，也不會很麻煩。<br>
+大一體育就是什麼都教，喜歡的不喜歡的體育都得碰。<br>
+其他運動我不知道，不過上羽球那堂課的時候覺得老師又強又會教人，讓我很想去修她開的羽球。
+
+<br>
+
+### 游泳初學 / 施秉宏
+老師教的蠻好的，覺得上完課有進步。小小不滿意的點是下水前都會花很多時間講話。雖然知道講那麼多話是想讓大家建立正確的概念、讓大家進步得更快，但真的有點太久了(｡ŏ\_ŏ)<br>
+老師人也蠻好，教學也算細心，因身體因素無法下水時不會刁難人。<br>
+之後要是選不到體育可能會再回來選他的課。
+
+<br>
+
+### 羽球初學 / 朱真儀
+然後我就真的選到朱真儀的羽球了。羽球課超難搶，超級幸運。
+
+跟大一的印象一樣，老師雖然有很多堅持，但真的很會教。雖然是初學，但也有不少看起來很強的同學來修，有時候能有機會跟同學們互動，進而發現自己不足的地方並學習。<br>
+
+由於是初學，自由活動時間少而教學的時間多，適合我這種菜雞但可能不適合有基礎的人。<br>
+整學期下來進步了很多，變成了比較強的菜雞。<br>
+
+大部分的時候都要跟一位 partner 一起練習，非常感謝我的搭檔陪我，尤其還拿課外時間陪我練習以及幫我考試><
