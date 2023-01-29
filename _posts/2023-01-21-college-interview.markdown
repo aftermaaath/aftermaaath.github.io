@@ -39,11 +39,6 @@ date: 2023-01-21 23:43:08 +0900
 #published: false
 ---
 
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
-</script>
-<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript">
-</script>
 
 ### 前言 ~~（廢話）~~
 <div style="height: 10px">
@@ -200,7 +195,7 @@ Q5：上大學後會想繼續打比賽嗎？<br>
 會。本身對演算法比賽很有興趣，其他比賽也願意嘗試。
 
 #### 第二間
-一張方格圖，自 \(i\) 到 $j$ （任意相鄰的兩格）有代價 $k\_{ij}$，圖的四邊有不規則邊界，中心有不規則障礙物（一些連通的格子，位置不一定在中心，保證與邊界不連通），問繞過障礙物的最小環？
+一張方格圖，自 \(i\) 到 $j$ （任意相鄰的兩格）有代價 $k_{ij}$，圖的四邊有不規則邊界，中心有不規則障礙物（一些連通的格子，位置不一定在中心，保證與邊界不連通），問繞過障礙物的最小環？
 
 有附圖，大概長這樣：
 
