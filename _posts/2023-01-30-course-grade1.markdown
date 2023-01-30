@@ -11,7 +11,7 @@ category: nthu-course
 # multiple tag entries are possible
 tags: [nthu, course]
 # thumbnail image for post
-img: ":course-eng.jpg"
+img: ":course-grade1.jpg"
 # disable comments on this page
 #comments_disable: true
 
