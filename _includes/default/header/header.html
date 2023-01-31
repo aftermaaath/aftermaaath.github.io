@@ -28,6 +28,13 @@
 
 {%-comment-%} Load mathjax {%-endcomment%}
 <script id="MathJax-script" defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      }
+    };
+</script>
 
 {%-comment-%} Standard icons {%-endcomment%}
 <link rel="shortcut icon" href="{{ site.baseurl }}/assets/img/favicons/favicon.ico">
