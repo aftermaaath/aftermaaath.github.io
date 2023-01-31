@@ -72,7 +72,7 @@ page_data:
     - type: id_oj
       title: "MeowMeow OJ"
       url: "http://adalab.cs.nthu.edu.tw/"
-      info: "清大競程課使用的 OJ，放了很多依主題劃分的課程作業，以及往年比賽題目供練習。"
+      info: "清大競程課使用的 OJ，放了很多依主題分類的課程作業，以及往年比賽題目供練習。"
     - type: id_oj
       title: "Zerojudge"
       url: "https://zerojudge.tw/"
