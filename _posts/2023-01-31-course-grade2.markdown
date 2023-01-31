@@ -87,7 +87,7 @@ date: 2023-01-31 17:11:44 +0900
 現在可能真的可以確定不走硬體了吧，還有，這門課真的不要想不開修第二次。<br>
 不過李濬屹真的是貨真價實的調分魔法師。
 
-<div style="background-color:#FFF4C1; padding-top: 10px; padding-bottom: 10px; border-radius: 10px;">
+<div style="background-color:#FFF4C1; padding: 10px; border-radius: 10px;">
 <p>*以下特別感謝*<br></p>
 <ul>
     <li>邏實隊友（以及她的肝與她的老大s（複數加s））</li>
