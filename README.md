@@ -1,5 +1,10 @@
 a page just for fun.
 
+subpage
+link: tabs/link.md
+about:
+post: \_post
+home: 
 
 ## Structure of the files and directories
 ### \_data
