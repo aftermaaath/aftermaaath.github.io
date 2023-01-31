@@ -100,4 +100,4 @@ Final project 的排名分很奇怪，是拿所有 code 而非只有全對的 co
 
 ![](https://i.imgur.com/20HaupJ.png)
 
-結論：自立自強的話問題不大
+結論：自立自強的話問題不大，應該吧。
