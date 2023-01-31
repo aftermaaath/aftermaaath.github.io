@@ -26,3 +26,6 @@ Personal information, such as brand name, name, other titles.
 
 ### \_layouts
 main file(.md) of each pages.
+
+### tabs
+md files for every subpages.
