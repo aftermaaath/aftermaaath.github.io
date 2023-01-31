@@ -1,0 +1,89 @@
+---
+# multilingual page pair id, this must pair with translations of this page. (This name must be unique)
+lng_pair: id_Examples
+title: 修課心得 -- 通識 
+
+# post specific
+# if not specified, .name will be used from _data/owner/[language].yml
+author: aftermaaath
+# multiple category is not supported
+category: nthu-course 
+# multiple tag entries are possible
+tags: [nthu, course]
+# thumbnail image for post
+img: ":course-eng.jpg"
+# disable comments on this page
+#comments_disable: true
+
+# publish date
+date: 2023-01-31 11:31:20 +0900
+
+# seo
+# if not specified, date will be used.
+#meta_modify_date: 2022-02-10 08:11:06 +0900
+# check the meta_common_description in _data/owner/[language].yml
+#meta_description: ""
+
+# optional
+# please use the "image_viewer_on" below to enable image viewer for individual pages or posts (_posts/ or [language]/_posts folders).
+# image viewer can be enabled or disabled for all posts using the "image_viewer_posts: true" setting in _data/conf/main.yml.
+#image_viewer_on: true
+# please use the "image_lazy_loader_on" below to enable image lazy loader for individual pages or posts (_posts/ or [language]/_posts folders).
+# image lazy loader can be enabled or disabled for all posts using the "image_lazy_loader_posts: true" setting in _data/conf/main.yml.
+#image_lazy_loader_on: true
+# exclude from on site search
+#on_site_search_exclude: true
+# exclude from search engines
+#search_engine_exclude: true
+# to disable this page, simply set published: false or delete this file
+#published: false
+---
+
+<!-- outline-start -->
+
+各通識課的修課心得（左傳、經原、生活化學應用、電影配樂）。
+
+<!-- outline-end -->
+
+<br>
+
+### 文學經典：《左傳》選讀 / 謝明憲 （核通三）
+雖然我討厭國文，但我蠻喜歡這門課的。<br>
+教授的教學方式是把文章分成 10 段並請各組報告。與其說是報告，更像是在跟教授對談，並從中釐清疑點和真相。教授懂很多，卻不會讓人覺得他在賣弄學識。不親自講課，但不會讓人覺得他是薪水小偷。
+
+雖然教授對於某些問題感覺心裡已經有答案，但也蠻歡迎大家提出自己的想法。如果合理會贊同，不合理會詳細解釋。他的觀點蠻有趣的，有點像呂世浩的書那樣。
+
+沒有期中期末考，期中期末是作業型式，平時沒有作業。會點名但上課不會管你在幹嘛（所以我後來都拿去打扣了><，老師還是教得很好喔可是 CSES 太吸引人了）。
+
+我蠻喜歡我這門課的組員。大家總是很有默契地拖到最後一天才開始做簡報，做出來的東西還出乎意料地算是不錯。
+
+<br>
+
+### 經濟學原理一 / 莊慧玲 （核通四）
+聽說修經原一，這個教授不是最好的選擇，但我當初沒得選。<br>
+教授是慈祥媽媽型的那種，講課總是讓人很想睡覺。以應付考試來說，聽助教講課比聽教授講課有用得多。上課會問問題，答不出來不會怎樣，呃，答出來也不會怎樣。
+
+我社會科很爛，對我來說這門課很像比較難的高中公民（講供需的那幾個單元），所以我覺得有點吃力。但對一般人來說應該不難。<br>
+至於這堂課學的東西有沒有用，有人說有，所以我覺得應該是有。但我好像沒把這堂課的知識帶走，所以對我而言似乎沒有，我的問題。
+這堂課有課堂討論、有作業、有小考、有期中期末、有期末分組報告，不是什麼涼課。不過小考題目部分是從作業來的，期中期末題目又有部分是從小考來的，不會到太難準備（但我還是沒考多好）。
+
+覺得最大的收穫是做期末報告，還好組員不算太雷。我們是做有關神奇百貨的分析，為此去神奇百貨三樓採訪了他們的店長。整個訪談都蠻酷蠻有趣的，但就不贅述了。總之如果慎選組員跟主題，可以有一些意想不到的收穫。
+
+<br>
+
+### 生活化學應用：身在毒中不知毒 / 任修平
+甜涼好課，同時又學得到東西，難怪每學期一堆人搶著修。<br>
+作業只要上課有在聽，或你朋友上課有在聽，都蠻好寫的。<br>
+沒有期中期末考，有期末報告不過蠻自由的，只要跟健康有關想做什麼就做什麼，不難搞定。<br>
+會點名，但他的課讓人蠻想去上的。教授講話有趣，會在課上學到一些神奇的知識~~，像是如何搬運毒品之類的~~。<br>
+本來有參訪，可惜因為疫情取消。
+
+<br>
+
+### 電影配樂發展史與風格賞析 / 邱亭雅
+也是甜涼課，不過教的東西比較吃興趣又不實用，好處是不會管你上課在幹嘛。<br>
+有學習單（不算太多）、期中考、期末報告，會點名。<br>
+學習單都跟看的電影有關，期中考都是抓投影片內容，期末報告可以自訂主題，點名時間固定，總之都不難搞定。
+
+上課就是介紹電影配樂、放電影給大家看、看完電影寫學習單。<br>
+我自己沒什麼興趣，於是大半時間都拿去睡覺了ヽ( ° ▽°)ノ
