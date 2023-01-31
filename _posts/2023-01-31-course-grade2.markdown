@@ -16,7 +16,7 @@ img: ":course-grade2.jpg"
 #comments_disable: true
 
 # publish date
-date: 2023-01-31 22:21:31 +0900
+date: 2023-01-31 12:26:44 +0900
 
 # seo
 # if not specified, date will be used.
