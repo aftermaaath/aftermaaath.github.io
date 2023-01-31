@@ -34,3 +34,10 @@ main file(.md) of each pages.
 
 ### tabs
 md files for every subpages.
+
+### \_include
+#### default
+##### header/header.html
+header for each .html
+##### footer.html
+footer for each .html
