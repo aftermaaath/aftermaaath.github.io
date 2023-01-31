@@ -46,49 +46,69 @@ page_data:
 
   # To change order of the Categories, simply change order. (you don't need to change list order.)
   category:
-    - title: "JekyII / Liquid"
-      type: id_jekyiiliquid
+    - title: "OnlineJudge"
+      type: id_oj
       color: "gray"
-    - title: "Web Design"
-      type: id_webdesign
-      color: "#F4A273"
-    - title: "Programming"
+    - title: "C++ Programming"
       type: id_programming
-      color: "#62b462"
+      color: "#007500"
+    - title: "Other references"
+      type: id_others
+      color: "#003D79"
 
   list:
     -
-    # programming
+    # C++ Programming
     - type: id_programming
-      title: "Stack OverFlow"
-      url: "https://stackoverflow.com/"
-      info: "Stack Overflow is a question and answer website for professional and enthusiastic programmers."
+      title: "C++ reference"
+      url: "http://www.cplusplus.com/reference/"
+      info: "C/C++ 的語法參考、各函式庫的用法參考。"
+    - type: id_programming
+      title: "OI wiki"
+      url: "https://oi-wiki.org/"
+      info: "與競程有關的知識整合網站，包含許多競賽常用演算法的知識、用法與常見題型。"
 
-    # jekyiiliquid
-    - type: id_jekyiiliquid
-      title: "Jekyll"
-      url: "https://jekyllrb.com/"
-      info: "Transform your plain text into static websites and blogs."
-    - type: id_jekyiiliquid
-      title: "Jekyll Cheat Sheet"
-      url: "https://cloudcannon.com/community/jekyll-cheat-sheet/"
-      info: "There are so many Jekyll variables and filters to remember and it can be tricky to keep it all in your head. This cheat sheet serves as a quick reference of everything Jekyll can do."
-    - type: id_jekyiiliquid
-      title: "Liquid for Designers"
-      url: "https://github.com/Shopify/liquid/wiki/Liquid-for-Designers"
-      info: "Liquid for Designers wiki on GitHub"
-    - type: id_jekyiiliquid
-      title: "Liquid for Programmers"
-      url: "https://github.com/Shopify/liquid/wiki/Liquid-for-Programmers"
-      info: "Liquid for Programmers wiki on GitHub"
-    - type: id_jekyiiliquid
-      title: "Liquid Reference"
-      url: "https://shopify.dev/api/liquid/"
-      info: "Liquid is a template language created by Shopify and written in Ruby. It is now available as an open source project on GitHub"
+    # OnlineJudge
+    - type: id_oj
+      title: "MeowMeow OJ"
+      url: "http://adalab.cs.nthu.edu.tw/"
+      info: "清大競程課使用的 OJ，放了很多依主題劃分的課程作業，以及往年比賽題目供練習。"
+    - type: id_oj
+      title: "Zerojudge"
+      url: "https://zerojudge.tw/"
+      info: ""
+    - type: id_oj
+      title: "AtCoder"
+      url: "https://atcoder.jp/"
+      info: ""
+    - type: id_oj
+      title: "Codeforces"
+      url: "https://codeforces.com/"
+      info: ""
+    - type: id_oj
+      title: "CSES"
+      url: "https://cses.fi/"
+      info: ""
+    - type: id_oj
+      title: "TIOJ"
+      url: "https://tioj.ck.tp.edu.tw/"
+      info: "建中的 OJ，有蠻多值得練習的題目。"
+    - type: id_oj
+      title: "SPOJ"
+      url: "https://www.spoj.com/"
+      info: ""
 
-    # webdesign
-    - type: id_webdesign
+    # Other references
+    - type: id_others
+      title: "EdClub"
+      url: ""
+      info: ""
+    - type: id_others
       title: "W3Schools"
-      url: "https://www.w3schools.com/"
-      info: "W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many more."
+      url: ""
+      info: ""
+    - type: id_others
+      title: "Vim Cheat Sheet"
+      url: ""
+      info: ""
 ---
