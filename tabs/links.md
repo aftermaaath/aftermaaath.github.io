@@ -51,10 +51,10 @@ page_data:
       color: "gray"
     - title: "C++ Programming"
       type: id_programming
-      color: "#007500"
+      color: "#00A600"
     - title: "Other references"
       type: id_others
-      color: "#003D79"
+      color: "#0066CC"
 
   list:
     -
@@ -101,14 +101,18 @@ page_data:
     # Other references
     - type: id_others
       title: "EdClub"
-      url: ""
+      url: "https://www.edclub.com/sportal/"
       info: ""
     - type: id_others
       title: "W3Schools"
-      url: ""
+      url: "https://www.w3schools.com/"
       info: ""
     - type: id_others
       title: "Vim Cheat Sheet"
-      url: ""
+      url: "https://vim.rtorr.com/"
+      info: ""
+    - type: id_others
+      title: "Grammarly"
+      url: "https://app.grammarly.com/"
       info: ""
 ---
