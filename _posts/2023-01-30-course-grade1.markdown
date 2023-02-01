@@ -68,6 +68,7 @@ date: 2023-01-30 22:21:31 +0900
 或許打從一開始就不應該認真讀普物，修完的我一點點知識都沒帶走，大二修常微的時候有電路的題目就不會寫、看到電容跟電感就整題送他，超級可悲。
 
 ![](https://i.imgur.com/jKUKq0q.png){:data-align="center"}
+<br>
 ![](https://i.imgur.com/4BCUo58.png){:data-align="center"}
 
 <br>
