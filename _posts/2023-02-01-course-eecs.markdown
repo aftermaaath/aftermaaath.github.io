@@ -78,7 +78,7 @@ published: false
 也會教一些比較實用的東西，像 hackmd、git、$$LaTeX$$ 之類的。<br>
 整體來說就是甜涼課。作業簡單、期中期末前有大猜題。不點名，後來教室裡的人明顯越來越少。
 
-![](https://i.imgur.com/TX4LuUV.png)
+![](https://i.imgur.com/TX4LuUV.png){:data-align="center"}
 
 <br>
 
@@ -105,7 +105,7 @@ published: false
 <br>
 
 ##### 高等離散結構 / 韓永楷
-![](https://i.imgur.com/n9PFzlo.png)
+![](https://i.imgur.com/n9PFzlo.png){:data-align="center"}
 
 <br>
 

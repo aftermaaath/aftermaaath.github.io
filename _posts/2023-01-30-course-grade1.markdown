@@ -67,8 +67,8 @@ date: 2023-01-30 22:21:31 +0900
 
 或許打從一開始就不應該認真讀普物，修完的我一點點知識都沒帶走，大二修常微的時候有電路的題目就不會寫、看到電容跟電感就整題送他，超級可悲。
 
-![](https://i.imgur.com/jKUKq0q.png)
-![](https://i.imgur.com/4BCUo58.png)
+![](https://i.imgur.com/jKUKq0q.png){:data-align="center"}
+![](https://i.imgur.com/4BCUo58.png){:data-align="center"}
 
 <br>
 
@@ -95,7 +95,7 @@ date: 2023-01-30 22:21:31 +0900
 教授蠻喜歡跟學生互動的，常常在課堂上點他知道的幾位同學，並大力稱讚與他互動的同學們。<br>
 上課回答問題會加分（不是直接加總成績但差不多啦），問題都不難，答錯也不會怎樣。
 
-![](https://i.imgur.com/EU4MHtF.png)
+![](https://i.imgur.com/EU4MHtF.png){:data-align="center"}
 
 <br>
 
