@@ -16,7 +16,7 @@ img: ":course-eecs.jpg"
 #comments_disable: true
 
 # publish date
-date: 2023-02-01 12:21:31 +0900
+date: 2023-02-01 14:21:31 +0900
 
 # seo
 # if not specified, date will be used.
