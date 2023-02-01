@@ -5,6 +5,7 @@ link: tabs/link.md
 about:
 post: \_post
 home: 
+archive: \_layouts/archives.md
 
 ## Structure of the files and directories
 ### \_data
