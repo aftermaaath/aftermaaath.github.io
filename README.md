@@ -2,7 +2,7 @@ a page just for fun.
 
 subpage
 link: tabs/link.md
-about:
+about: tabs/about.md
 post: \_post
 home: 
 archive: \_layouts/archives.md
