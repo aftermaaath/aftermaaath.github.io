@@ -52,13 +52,17 @@ page_data:
     - title: "Cartoon"
       type: id_cartoon
       color: "#00A600"
-    - title: "Other references"
-      type: id_others
+    - title: "Programming"
+      type: id_programming
       color: "#0066CC"
 
   list:
     -
     # NTHU
+    - type: id_nthu
+      title: ""
+      url: ""
+      info: ""
     - type: id_nthu
       title: ""
       url: ""
@@ -70,5 +74,9 @@ page_data:
       url: ""
       info: ""
 
-    # Other references
+    # Programming
+    - type: id_programming
+      title: ""
+      url: ""
+      info: ""
 ---
