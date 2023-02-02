@@ -41,16 +41,16 @@ lng_pair: id_links
 ###########################################################
 page_data:
   main:
-    header: "Links"
+    header: "Dumb quizzes"
     info: "Your Links page description."
 
   # To change order of the Categories, simply change order. (you don't need to change list order.)
   category:
-    - title: "OnlineJudge"
-      type: id_oj
+    - title: "NTHU"
+      type: id_nthu
       color: "gray"
-    - title: "C++ Programming"
-      type: id_programming
+    - title: "Cartoon"
+      type: id_cartoon
       color: "#00A600"
     - title: "Other references"
       type: id_others
@@ -58,61 +58,17 @@ page_data:
 
   list:
     -
-    # C++ Programming
-    - type: id_programming
-      title: "C++ reference"
-      url: "http://www.cplusplus.com/reference/"
-      info: "C/C++ 的語法參考、各函式庫的用法參考。"
-    - type: id_programming
-      title: "OI wiki"
-      url: "https://oi-wiki.org/"
-      info: "與競程有關的知識整合網站，包含許多競賽常用演算法的知識、用法與常見題型。"
+    # NTHU
+    - type: id_nthu
+      title: ""
+      url: ""
+      info: ""
 
-    # OnlineJudge
-    - type: id_oj
-      title: "MeowMeow OJ"
-      url: "http://adalab.cs.nthu.edu.tw/"
-      info: "清大競程課使用的 OJ，放了很多依主題分類的課程作業，以及往年比賽題目供練習。"
-    - type: id_oj
-      title: "Zerojudge"
-      url: "https://zerojudge.tw/"
-      info: ""
-    - type: id_oj
-      title: "AtCoder"
-      url: "https://atcoder.jp/"
-      info: ""
-    - type: id_oj
-      title: "Codeforces"
-      url: "https://codeforces.com/"
-      info: ""
-    - type: id_oj
-      title: "CSES"
-      url: "https://cses.fi/"
-      info: ""
-    - type: id_oj
-      title: "TIOJ"
-      url: "https://tioj.ck.tp.edu.tw/"
-      info: "建中的 OJ，有蠻多值得練習的題目。"
-    - type: id_oj
-      title: "SPOJ"
-      url: "https://www.spoj.com/"
+    # Cartoon
+    - type: id_cartoon
+      title: ""
+      url: ""
       info: ""
 
     # Other references
-    - type: id_others
-      title: "EdClub"
-      url: "https://www.edclub.com/sportal/"
-      info: ""
-    - type: id_others
-      title: "W3Schools"
-      url: "https://www.w3schools.com/"
-      info: ""
-    - type: id_others
-      title: "Vim Cheat Sheet"
-      url: "https://vim.rtorr.com/"
-      info: ""
-    - type: id_others
-      title: "Grammarly"
-      url: "https://app.grammarly.com/"
-      info: ""
 ---
