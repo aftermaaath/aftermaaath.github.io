@@ -36,9 +36,41 @@ date: 2023-01-18 17:58:06 +0900
 # exclude from search engines
 #search_engine_exclude: true
 # to disable this page, simply set published: false or delete this file
-published: false
+#published: false
 ---
 
-# H1
-## H2
-中文能寫嗎？
+syntax highlighting test
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main(){
+    cout << "hello world\n";
+    return 0;
+}
+```
+
+```c
+#include <stdio.h>
+
+int main(){
+    return 0;
+}
+```
+
+```python
+    for i in range(5):
+        print(i)
+```
+
+```html
+<script id="MathJax-script" defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+```
+
+```bash
+cd ..
+git clone https://github.com/aftermaaath/aftermaaath.github.io.git
+mkdir test
+cd test
+```
