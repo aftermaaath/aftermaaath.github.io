@@ -60,7 +60,7 @@ page_data:
     -
     # NTHU
     - type: id_nthu
-      title: ""
+      title: "nthucs"
       url: "../_quiz/test.html"
       info: ""
     - type: id_nthu
