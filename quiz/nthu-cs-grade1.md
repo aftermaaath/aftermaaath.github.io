@@ -1,5 +1,5 @@
 ---
-
+title: Quiz 
 ---
 {%- include multi_lng/get-lng-by-url.liquid -%}
 {%- assign lng = get_lng -%}

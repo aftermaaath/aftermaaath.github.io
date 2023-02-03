@@ -61,7 +61,7 @@ page_data:
     # NTHU
     - type: id_nthu
       title: "nthucs"
-      url: "../quiz/test.html"
+      url: "../quiz/nthu-cs-grade1.html"
       info: ""
     - type: id_nthu
       title: ""
