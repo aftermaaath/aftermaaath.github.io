@@ -40,7 +40,7 @@ layout: default
           {%- capture link_url -%} <b>{{ list.title }}</b> {%- endcapture -%}
         {% else %}
           {%- assign link_onclick = nil -%}
-          {%- capture link_url -%} <a href="{{ list.url }}" target="_blank" rel="noopener noreferrer"><b>{{ list.title }}</b></a> {%- endcapture -%}
+          {%- capture link_url -%} <a href="{{ list.url }}" rel="noopener noreferrer"><b>{{ list.title }}</b></a> {%- endcapture -%}
         {%- endif %}
         <tr class="link-item" {{ link_onclick }}>
           <td>
