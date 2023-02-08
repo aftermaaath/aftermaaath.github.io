@@ -48,7 +48,7 @@ page_data:
   category:
     - title: "NTHU"
       type: id_nthu
-      color: "gray"
+      color: "#BEBEBE"
     - title: "Cartoon"
       type: id_cartoon
       color: "#84C1FF"
