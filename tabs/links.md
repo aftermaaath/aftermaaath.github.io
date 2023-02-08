@@ -54,13 +54,13 @@ page_data:
       color: "#00A600"
     - title: "Programming"
       type: id_programming
-      color: "#0066CC"
+      color: "#0072E3"
 
   list:
     -
     # NTHU
     - type: id_nthu
-      title: "nthucs"
+      title: "Grade1"
       url: "../quiz/nthu-cs-grade1.html"
       info: ""
     - type: id_nthu
