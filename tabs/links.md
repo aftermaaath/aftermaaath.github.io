@@ -51,10 +51,10 @@ page_data:
       color: "gray"
     - title: "Cartoon"
       type: id_cartoon
-      color: "#00A600"
+      color: "#84C1FF"
     - title: "Programming"
       type: id_programming
-      color: "#0072E3"
+      color: "#95CACA"
 
   list:
     -
