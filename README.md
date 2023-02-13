@@ -1,11 +1,11 @@
 a page just for fun.
 
 subpage
-link: tabs/link.md
-about: tabs/about.md
-post: \_post
+link: tabs/link.md<br>
+about: tabs/about.md<br>
+post: \_post<br>
 home: 
-archive: \_layouts/archives.md
+archive: \_layouts/archives.md<br>
 
 ## Structure of the files and directories
 ### \_data
