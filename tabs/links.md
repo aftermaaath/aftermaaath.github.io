@@ -62,7 +62,7 @@ page_data:
     - type: id_nthu
       title: "Grade1"
       url: "../quiz/nthu-cs-grade1.html"
-      info: ""
+      info: "關於我們這屆資工系大一的各種笨笨問題"
     - type: id_nthu
       title: ""
       url: ""
