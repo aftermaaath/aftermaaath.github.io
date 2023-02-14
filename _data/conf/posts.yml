@@ -134,14 +134,14 @@ pager_page_numbers_first_last_buttons: true
 ###########################################################
 #                Comments
 ###########################################################
-comments: true
+comments: 
 ###  # to enable comments please set to true, comments can be disabled on any post by setting comments_disable: true
 ###  enable: true
 ###  # make sure disqus_shortname is set in _data/owner/[language].yml
   # to enable comments, please select one of the engine below. Set engine: "" to turn it off.
   # comments can be disabled on any post by setting comments_disable: true
   # engine: disqus, giscus
-  engine: "disqus"
+  engine: ""
   # make sure comments.disqus.shortname is set in _data/owner/[language].yml
   disqus:
 ###    # to enable disqus comments please set to true
