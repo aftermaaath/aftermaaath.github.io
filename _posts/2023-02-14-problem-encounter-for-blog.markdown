@@ -36,14 +36,14 @@ date: 2023-01-18 17:58:06 +0900
 # exclude from search engines
 #search_engine_exclude: true
 # to disable this page, simply set published: false or delete this file
-#published: false
+published: false
 ---
 
 <!-- outline-start -->
 
 <!-- outline-end -->
 
-- <h3>使用 $LaTeX$</h3>
+- <h4>使用 $LaTeX$</h4>
 在 `header.html` 裡面加上：
 ```html
 <script id="MathJax-script" defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
@@ -55,3 +55,4 @@ date: 2023-01-18 17:58:06 +0900
     };
 </script>
 ```
+- test
