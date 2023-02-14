@@ -43,7 +43,7 @@ date: 2023-01-18 17:58:06 +0900
 
 <!-- outline-end -->
 
-<h3>使用 $LaTeX$</h3>
+- <h3>使用 $LaTeX$</h3>
 在 `header.html` 裡面加上：
 ```html
 <script id="MathJax-script" defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
