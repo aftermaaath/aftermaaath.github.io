@@ -158,7 +158,7 @@ comments:
     consent:
       # to enable consent for disqus comments please set to true
       # make sure load_mode is scroll_to_load or scroll_to_load_but_mobile_click_to_load
-      enable: true
+      enable: false
       terms_url: "https://help.disqus.com/en/articles/1717102-terms-of-service"
       privacy_url: "https://help.disqus.com/en/articles/1717103-disqus-privacy-policy"
       settings_url: "https://disqus.com/data-sharing-settings"
