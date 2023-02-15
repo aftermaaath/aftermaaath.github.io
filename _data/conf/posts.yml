@@ -154,7 +154,7 @@ comments:
     # 2. scroll_to_load
     # 3. scroll_to_load_but_mobile_click_to_load
     # 4. none of above (commented or "") load with page load (not recommended)
-    load_mode: click_to_load
+    load_mode: scroll_to_load
     consent:
       # to enable consent for disqus comments please set to true
       # make sure load_mode is scroll_to_load or scroll_to_load_but_mobile_click_to_load
