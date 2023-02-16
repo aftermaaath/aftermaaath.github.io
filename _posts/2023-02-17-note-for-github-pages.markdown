@@ -36,7 +36,7 @@ date: 2023-02-15 17:58:06 +0900
 # exclude from search engines
 #search_engine_exclude: true
 # to disable this page, simply set published: false or delete this file
-published: false
+#published: false
 ---
 
 <!-- outline-start -->
@@ -78,6 +78,9 @@ published: false
 接著就可以用一般的方式使用了，例如寫 `$x^2 + y^2 = z^2$` 會變成 $x^2 + y^2 = z^2$；寫 `$$f(x) = x^2$$` 會變成：
 <p>$$f(x) = x^2$$</p>
 
-值得注意的是，如果在 markdown 中使用的話，
+值得注意的是，如果在 markdown 中使用的話，`$x$` 與 `$$x$$` 皆會被視為單行，且如果內容包括含有其他意義的字元（例如 `|something|+|another thing|` 可能會被視為表格），輸出可能會跟預期不同。這時候可以用 `<p></p>` 之類的 html tag 把它包起來就不會出問題了，像是：
+```html
+<p>$x$</p>
+```
 
-<hr>
+<br><hr>
