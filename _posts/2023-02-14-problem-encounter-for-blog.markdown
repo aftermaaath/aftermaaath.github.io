@@ -1,7 +1,7 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_Examples
-title: 做 Github Pages 遇到的各種問題
+title: Github Pages Note
 
 # post specific
 # if not specified, .name will be used from _data/owner/[language].yml
@@ -13,10 +13,10 @@ tags: [github, html]
 # thumbnail image for post
 img: ":post_pic1.jpg"
 # disable comments on this page
-#comments_disable: true
+comments_disable: true
 
 # publish date
-date: 2023-01-18 17:58:06 +0900
+date: 2023-02-17 17:58:06 +0900
 
 # seo
 # if not specified, date will be used.
@@ -36,14 +36,33 @@ date: 2023-01-18 17:58:06 +0900
 # exclude from search engines
 #search_engine_exclude: true
 # to disable this page, simply set published: false or delete this file
-published: false
+#published: false
 ---
 
 <!-- outline-start -->
-
+在做 Github Pages 的過程中用到的各種東西 / 遇到的問題。
 <!-- outline-end -->
 
-- <h4>使用 $LaTeX$</h4>
+Outline:
+- [挑 jekyll themes](#jekyll-themes)
+- [在本地瀏覽網頁](#local-preview)
+- [在網頁中使用 $LaTex$](#latex-use)
+- [Code syntax highlighter](#code-highlight)
+- [使用 disqus 做留言區](#disqus-comment)
+- [繪圖軟體 -- Krita](#krita-use)
+
+<hr>
+
+<h4 id="jekyll-themes">挑 jekyll themes</h4>
+可以到這裡找主題，蠻多免費又好看的主題可以挑：<br>
+https://jekyll-themes.com/
+
+接著就照網路上大部分的 tutorial，fork 它、把 repository name 改成 `username.github.io` 就可以了。
+
+\_config.yml 的 url 也要改成 `https://username.github.io`
+<hr>
+
+<h4 id="latex-use">在網頁中使用 $LaTeX$</h4>
 在 `header.html` 裡面加上：
 ```html
 <script id="MathJax-script" defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
@@ -55,4 +74,7 @@ published: false
     };
 </script>
 ```
-- test
+接著就可以用一般的方式使用了，
+<p>$$f(x) = x^2$$</p>
+
+<hr>
