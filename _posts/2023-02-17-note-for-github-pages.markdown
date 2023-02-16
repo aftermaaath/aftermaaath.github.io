@@ -43,26 +43,27 @@ date: 2023-02-15 17:58:06 +0900
 在做 Github Pages 的過程中用到的各種東西 / 遇到的問題。
 <!-- outline-end -->
 
-Outline:
+#### Outline
 - [挑 jekyll themes](#jekyll-themes)
 - [在本地瀏覽網頁](#local-preview)
-- [在網頁中使用 $LaTex$](#latex-use)
+- [在網頁中使用 $LaTeX$](#latex-use)
 - [Code syntax highlighter](#code-highlight)
 - [使用 disqus 做留言區](#disqus-comment)
 - [繪圖軟體 -- Krita](#krita-use)
 
-<hr>
+<hr><br>
 
 <h4 id="jekyll-themes">挑 jekyll themes</h4>
-可以到這裡找主題，蠻多免費又好看的主題可以挑：<br>
-https://jekyll-themes.com/
 
-接著就照網路上大部分的 tutorial，fork 它、把 repository name 改成 `username.github.io` 就可以了。
+可以到這裡找主題，蠻多免費又好看的主題可以挑：[JEKYLL THEMES](https://jekyll-themes.com/)
+
+接著就照網路上大部分的 tutorial，fork 它、把 repository name 改成 `username.github.io` 就可以了，把 `username` 換成自己的 Github username。
 
 \_config.yml 的 url 也要改成 `https://username.github.io`
-<hr>
+<hr><br>
 
 <h4 id="latex-use">在網頁中使用 $LaTeX$</h4>
+
 在 `header.html` 裡面加上：
 ```html
 <script id="MathJax-script" defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
@@ -74,7 +75,7 @@ https://jekyll-themes.com/
     };
 </script>
 ```
-接著就可以用一般的方式使用了，
+接著就可以用一般的方式使用了，例如寫 $x^2 + y^2 = z^2$ 會變成 <p>$x^2$ + y^2 = z^2</p>；寫 $$f(x) = x^2$$ 會變成：
 <p>$$f(x) = x^2$$</p>
 
 <hr>
