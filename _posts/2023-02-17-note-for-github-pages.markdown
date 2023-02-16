@@ -60,6 +60,7 @@ published: false
 接著就照網路上大部分的 tutorial，fork 它、把 repository name 改成 `username.github.io` 就可以了，把 `username` 換成自己的 Github username。
 
 \_config.yml 的 url 也要改成 `https://username.github.io`
+
 <br><hr>
 
 <h4 id="latex-use">在網頁中使用 $LaTeX$</h4>
@@ -84,3 +85,8 @@ published: false
 ```
 
 <br><hr>
+
+<h4 id="krita-use">繪圖軟體 -- [Krita](https://krita.org/zh-tw/)</h4>
+
+雖然跟 Github pages 沒什麼關係，不過還是想講一下d(`･∀･)b<br>
+寫在這邊是因為網頁索引左側的小圖示是用這個東西畫的。覺得做為一個免費的繪圖軟體，它已經應有盡有了。但我其實不會電繪，推這個完全沒有說服力，我只是覺得用起來跟用平板的繪圖軟體感覺差不多。
