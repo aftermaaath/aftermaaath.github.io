@@ -9,7 +9,7 @@ author: aftermaaath
 # multiple category is not supported
 category: interview
 # multiple tag entries are possible
-tags: [面試]
+tags: [interview]
 # thumbnail image for post
 img: ":post-1-img.jpg"
 # disable comments on this page
