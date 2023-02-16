@@ -11,7 +11,7 @@ category: useful_tools
 # multiple tag entries are possible
 tags: [github, html]
 # thumbnail image for post
-img: ":post_pic1.jpg"
+img: ":github_pages_note.jpg"
 # disable comments on this page
 comments_disable: true
 
