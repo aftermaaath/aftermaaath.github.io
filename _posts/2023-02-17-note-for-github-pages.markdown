@@ -5,7 +5,7 @@ title: Github Pages Note
 
 # post specific
 # if not specified, .name will be used from _data/owner/[language].yml
-author: aftermath
+author: aftermaaath
 # multiple category is not supported
 category: useful_tools
 # multiple tag entries are possible
@@ -16,7 +16,7 @@ img: ":post_pic1.jpg"
 comments_disable: true
 
 # publish date
-date: 2023-02-17 17:58:06 +0900
+date: 2023-02-15 17:58:06 +0900
 
 # seo
 # if not specified, date will be used.

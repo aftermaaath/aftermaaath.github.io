@@ -5,7 +5,7 @@ title: Test
 
 # post specific
 # if not specified, .name will be used from _data/owner/[language].yml
-author: aftermath
+author: aftermaaath
 # multiple category is not supported
 category: useful_tools
 # multiple tag entries are possible
