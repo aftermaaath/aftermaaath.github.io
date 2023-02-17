@@ -40,7 +40,7 @@ published: false
 ---
 
 <!-- outline-start -->
-在做 Github Pages 的過程中用到的各種東西 / 遇到的問題。
+在使用 jekyll 做 Github Pages 的過程中用到的各種東西 / 遇到的問題。
 <!-- outline-end -->
 
 #### Outline
@@ -64,7 +64,8 @@ published: false
 
 <h4 id="latex-use">在網頁中使用 $LaTeX$</h4>
 
-在 `header.html` 裡面加上：
+在要使用 $LaTeX$ 的 html 的 `<head></head>` 中加入下列程式碼。在大部分 jekyll theme 中，可以找到一個叫做 `header.html` 的檔案，即為所有頁面 `head` 中的內容。因此我們在 `header.html` 裡面加上：
+
 ```html
 <script id="MathJax-script" defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 <script>
@@ -80,17 +81,74 @@ published: false
 
 值得注意的是，如果在 markdown 中使用的話，`$x$` 與 `$$x$$` 皆會被視為單行，且如果內容包括含有其他意義的字元（例如 `|something|+|another thing|` 可能會被視為表格），輸出可能會跟預期不同。這時候可以用 `<p></p>` 之類的 html tag 把它包起來就不會出問題了，像是：
 ```html
-<p>$x$</p>
+<p>$$f(x) = x^2$$</p>
 ```
 
 <br><hr>
 
 <h4 id="code-highlight">Code syntax highlighter<h4>
 
-這邊是使用 rouge 作為 highlighter，首先在 \_config.yml 中加入下列設定：
+這邊是使用 rouge 作為 Markdown 的 Code syntax highlighter，首先在 \_config.yml 中加入下列設定：
 ```yaml
 markdown: kramdown
 highlighter: rouge
 ```
 
 接著在終端機輸入：
+```
+rougify style theme > assets/css/syntax.css
+```
+將上述的 theme 替換成喜歡的主題名稱，主題在[這個網頁](https://spsarolkar.github.io/rouge-theme-preview/)可以預覽。
+
+最後在 <head></head>（`header.html`）中加入：
+```html
+<link href="{{ site.baseurl }}/assets/css/syntax.css" rel="stylesheet" >
+```
+至此就設定完成了。在使用的時候，下列兩種用法都可以：
+~~~
+```cpp
+#include <iostream>
+using namespace std;
+
+int main(){
+    return 0;
+}
+```
+~~~
+
+~~~
+{% highlight cpp %}
+#include <iostream>
+using namespace std;
+
+int main(){
+    return 0;
+}
+{% endhighlight %}
+~~~
+
+<br><hr>
+
+<h4 id="disqus-comment">使用 disqus 做留言區<h4>
+
+首先到 [disqus](https://disqus.com/) 註冊並登入，接著點擊 "Get started" 並選擇 "I want to install Disqus on my site"。照著它要求的步驟做就好了，這邊只提及要注意的地方：
+
+1.
+
+2.
+Disqus 給的 Universal Embed Code 中有兩行需要自己更改的部分：
+```javascript
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+```
+將這兩行更改為如下即可：
+```javascript
+this.page.url = '<%= page.permalink %>';
+this.page.identifier = '<%= page.path %>';
+```
+
+3.
+如果希望可以 display comment count，依照指示將 `<script id="dsq-count-scr" src="//shortname.disqus.com/count.js" async></script>` 加到 `body` 中（`footer.html`）。接著將 `#disqus_thread` 加到你希望它顯示的地方。
+
+要注意部分是在 localhost 看的時候似乎不能正常顯示，以及放上去的時候要等好一陣子才會跑出來。<br>
+如果一直沒跑出來，先不要跟我一樣以為自己寫錯，很可能只要
