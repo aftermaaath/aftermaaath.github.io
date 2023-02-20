@@ -86,7 +86,7 @@ published: false
 
 <br><hr>
 
-<h4 id="code-highlight">Code syntax highlighter<h4>
+<h4 id="code-highlight">Code syntax highlighter</h4>
 
 這邊是使用 rouge 作為 Markdown 的 Code syntax highlighter，首先在 \_config.yml 中加入下列設定：
 ```yaml
@@ -129,11 +129,19 @@ int main(){
 
 <br><hr>
 
-<h4 id="disqus-comment">使用 disqus 做留言區<h4>
+<h4 id="disqus-comment">使用 disqus 做留言區</h4>
 
 首先到 [disqus](https://disqus.com/) 註冊並登入，接著點擊 "Get started" 並選擇 "I want to install Disqus on my site"。照著它要求的步驟做就好了，這邊只提及要注意的地方：
 
 1.
+使用 jekyll 的話，要注意設定中要將評論開啟，並對 disqus 做設定。即 disqus 中提到的：
+```html
+
+```
+可能不一定長這樣。像我這邊是這樣設定的：
+```html
+
+```
 
 2.
 Disqus 給的 Universal Embed Code 中有兩行需要自己更改的部分：
