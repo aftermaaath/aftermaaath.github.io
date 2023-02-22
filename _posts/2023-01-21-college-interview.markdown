@@ -105,6 +105,7 @@ date: 2023-01-21 23:43:08 +0900
     <li>學測英+數+自：40級（只有理學院學士班的超篩要看，APCS 不用）</li>
 </ul>
 
+<br>
 放到備審上的東西懶得補了（而且好羞恥裡面寫了一堆噁心話），大概列一下我把什麼東西放進裡面：
 <ul style="background-color:#D1E9E9; padding-top: 10px; padding-bottom: 10px; border-radius: 10px;">
     <li>檢定
@@ -113,6 +114,7 @@ date: 2023-01-21 23:43:08 +0900
             <li>高中英語聽力測驗 A級</li>
             <li>APCS 5/5</li>
         </ul>
+        <br>
     </li>
     <li>課程 & 營隊
         <ul>
@@ -121,12 +123,14 @@ date: 2023-01-21 23:43:08 +0900
             <li>資優數學研習營 Gifted Math Camp</li>
             <li>新加坡異地學習證明</li>
         </ul>
+        <br>
     </li>
     <li>校內獎項
         <ul>
             <li>優良學生</li>
             <li>高一下~高三上 品學優良獎獎狀</li>
         </ul>
+        <br>
     </li>
     <li>數學競賽
         <ul>
@@ -137,6 +141,7 @@ date: 2023-01-21 23:43:08 +0900
             <li>2020 校內科展數學科 佳作</li>
             <li>2020 ARML Local 團隊銅牌獎</li>
         </ul>
+        <br>
     </li>
     <li>程式競賽
         <ul>
