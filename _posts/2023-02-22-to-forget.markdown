@@ -1,13 +1,13 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_Examples
-title: Test
+title: 寫日記是為了忘記
 
 # post specific
 # if not specified, .name will be used from _data/owner/[language].yml
 author: aftermaaath
 # multiple category is not supported
-category: useful_tools
+category: thoughts 
 # multiple tag entries are possible
 tags: []
 # thumbnail image for post
@@ -39,15 +39,14 @@ date: 2023-01-18 17:58:06 +0900
 published: false
 ---
 
-<!-- outline-start -->
-記錄一些好用的網頁。
-<!-- outline-end -->
+在那些無法靜下心來做事的日子裡，我常常寫日記。
+寫日記不是為了記得，是為了忘記。
 
-### English
+-
 
-- [Thesaurus](https://www.thesaurus.com/)
-可以快速找一個單字的同義詞與反義詞。
+會因為很多事情寫日記，但追根究柢，原因其實只有一個。
+就是接受不了這麼糟糕的自己。
+直至現在我也不知道這樣做，這樣想方設法把這些負面忘掉，是不是好的。
+帶著這些情緒的我無法工作，忘掉這些情緒的我又過分安逸與懦弱。
 
-### Typing
-- [TypingClub](https://www.edclub.com/sportal/)
-從頭開始教正確的打字指法與訓練打字速度。
+-
