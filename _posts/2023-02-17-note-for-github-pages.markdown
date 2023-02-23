@@ -113,6 +113,7 @@ rougify style theme > assets/css/syntax.css
 
 至此就設定完成了。在使用的時候，下列兩種用法都可以：
 ~~~
+
 ```cpp
 #include <iostream>
 using namespace std;
@@ -121,17 +122,20 @@ int main(){
     return 0;
 }
 ```
+
 ~~~
 
 ```
-{% raw %}{% highlight cpp %}
+{% raw %}
+{% highlight cpp %}
 #include <iostream>
 using namespace std;
 
 int main(){
     return 0;
 }
-{% endhighlight %}{% endraw %}
+{% endhighlight %}
+{% endraw %}
 ```
 
 <br>
