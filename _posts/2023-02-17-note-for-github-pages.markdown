@@ -49,7 +49,8 @@ date: 2023-02-23 14:47:08 +0900
 - [Code syntax highlighter](#code-highlight)
 - [使用 disqus 做留言區](#disqus-comment)
 
-<br><hr>
+<br>
+<hr>
 
 <h4 id="jekyll-themes">挑 jekyll themes</h4>
 
@@ -57,9 +58,10 @@ date: 2023-02-23 14:47:08 +0900
 
 接著就照網路上大部分的 tutorial，fork 它、把 repository name 改成 `username.github.io` 就可以了，把 `username` 換成自己的 Github username。
 
-\_config.yml 的 url 也要改成 `https://username.github.io`
+`_config.yml` 的 url 也要改成 `https://username.github.io`
 
-<br><hr>
+<br>
+<hr>
 
 <h4 id="latex-use">在網頁中使用 $LaTeX$</h4>
 
@@ -83,11 +85,12 @@ date: 2023-02-23 14:47:08 +0900
 <p>$$f(x) = x^2$$</p>
 ```
 
-<br><hr>
+<br>
+<hr>
 
 <h4 id="code-highlight">Code syntax highlighter</h4>
 
-這邊是使用 rouge 作為 Markdown 的 Code syntax highlighter，首先在 \_config.yml 中加入下列設定：
+這邊是使用 rouge 作為 Markdown 的 Code syntax highlighter，首先在 `_config.yml` 中加入下列設定：
 ```yaml
 markdown: kramdown
 highlighter: rouge
@@ -99,10 +102,15 @@ rougify style theme > assets/css/syntax.css
 ```
 將上述的 theme 替換成喜歡的主題名稱，主題在[這個網頁](https://spsarolkar.github.io/rouge-theme-preview/)可以預覽。
 
+<br>
+
 最後在 <head></head>（`header.html`）中加入：
 ```html
 <link href="{{ site.baseurl }}/assets/css/syntax.css" rel="stylesheet" >
 ```
+
+<br>
+
 至此就設定完成了。在使用的時候，下列兩種用法都可以：
 ~~~
 ```cpp
@@ -115,7 +123,7 @@ int main(){
 ```
 ~~~
 
-~~~
+```
 {% highlight cpp %}
 #include <iostream>
 using namespace std;
@@ -124,9 +132,10 @@ int main(){
     return 0;
 }
 {% endhighlight %}
-~~~
+```
 
-<br><hr>
+<br>
+<hr>
 
 <h4 id="disqus-comment">使用 disqus 做留言區</h4>
 
@@ -150,6 +159,8 @@ comments:
 
 總之根據原本的檔案設定好就好。如果是 fork 下來的 theme，應該都有清楚的指示。
 
+<br>
+
 2.
 Disqus 給的 Universal Embed Code 中有兩行需要自己更改的部分：
 ```javascript
@@ -162,10 +173,14 @@ this.page.url = '<%= page.permalink %>';
 this.page.identifier = '<%= page.path %>';
 ```
 
+<br>
+
 3.
 如果希望可以 display comment count，依照指示將 `<script id="dsq-count-scr" src="//shortname.disqus.com/count.js" async></script>` 加到 `body` 中（`footer.html`）。接著將 `#disqus_thread` 加到你希望它顯示的地方。
 
 要注意部分是在 localhost 看的時候似乎不能正常顯示，以及放上去的時候要等好一陣子才會跑出來。<br>
 如果一直沒跑出來，先不要跟我一樣以為自己寫錯，很可能只要
+<br>
 ![](https://i.imgur.com/ydtJdpS.png)
+<br>
 就會成功了。
