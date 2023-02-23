@@ -124,7 +124,8 @@ int main(){
 ~~~
 
 ```
-{% highlight lang %}
+{% raw %}
+{% highlight cpp %}
 #include <iostream>
 using namespace std;
 
@@ -132,6 +133,7 @@ int main(){
     return 0;
 }
 {% endhighlight %}
+{% endraw %}
 ```
 
 <br>
