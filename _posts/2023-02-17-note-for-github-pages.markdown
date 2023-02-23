@@ -124,16 +124,14 @@ int main(){
 ~~~
 
 ```
-{% raw %}
-{% highlight cpp %}
+{% raw %}{% highlight cpp %}
 #include <iostream>
 using namespace std;
 
 int main(){
     return 0;
 }
-{% endhighlight %}
-{% endraw %}
+{% endhighlight %}{% endraw %}
 ```
 
 <br>
