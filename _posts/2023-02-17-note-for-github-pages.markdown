@@ -16,7 +16,7 @@ img: ":github_pages_note.jpg"
 comments_disable: true
 
 # publish date
-date: 2023-02-15 17:58:06 +0900
+date: 2023-02-23 14:47:08 +0900
 
 # seo
 # if not specified, date will be used.
@@ -36,7 +36,7 @@ date: 2023-02-15 17:58:06 +0900
 # exclude from search engines
 #search_engine_exclude: true
 # to disable this page, simply set published: false or delete this file
-published: false
+#published: false
 ---
 
 <!-- outline-start -->
@@ -45,7 +45,6 @@ published: false
 
 #### Outline
 - [挑 jekyll themes](#jekyll-themes)
-- [在本地瀏覽網頁](#local-preview)
 - [在網頁中使用 $LaTeX$](#latex-use)
 - [Code syntax highlighter](#code-highlight)
 - [使用 disqus 做留言區](#disqus-comment)
@@ -136,12 +135,20 @@ int main(){
 1.
 使用 jekyll 的話，要注意設定中要將評論開啟，並對 disqus 做設定。即 disqus 中提到的：
 ```html
-
+---
+layout: default
+comments: true
+# other options
+---
 ```
+
 可能不一定長這樣。像我這邊是這樣設定的：
 ```html
-
+comments:
+    engine: "disqus"
 ```
+
+總之根據原本的檔案設定好就好。如果是 fork 下來的 theme，應該都有清楚的指示。
 
 2.
 Disqus 給的 Universal Embed Code 中有兩行需要自己更改的部分：
@@ -160,3 +167,5 @@ this.page.identifier = '<%= page.path %>';
 
 要注意部分是在 localhost 看的時候似乎不能正常顯示，以及放上去的時候要等好一陣子才會跑出來。<br>
 如果一直沒跑出來，先不要跟我一樣以為自己寫錯，很可能只要
+![](https://i.imgur.com/ydtJdpS.png)
+就會成功了。
