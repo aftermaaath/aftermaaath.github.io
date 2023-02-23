@@ -107,7 +107,7 @@ date: 2023-01-21 23:43:08 +0900
 
 <br>
 放到備審上的東西懶得補了（而且好羞恥裡面寫了一堆噁心話），大概列一下我把什麼東西放進裡面：
-<ul style="background-color:#FBFFFD; padding-top: 10px; padding-bottom: 10px; border-radius: 10px;">
+<ul style="background-color:#FFFFDF; padding-top: 10px; padding-bottom: 10px; border-radius: 10px;">
     <li>檢定
         <ul>
             <li>TOEIC 英語檢定 860分 (金色證書)</li>
