@@ -124,7 +124,7 @@ int main(){
 ~~~
 
 ```
-{% highlight cpp %}
+{% highlight lang %}
 #include <iostream>
 using namespace std;
 
@@ -176,11 +176,13 @@ this.page.identifier = '<%= page.path %>';
 <br>
 
 3.
-如果希望可以 display comment count，依照指示將 `<script id="dsq-count-scr" src="//shortname.disqus.com/count.js" async></script>` 加到 `body` 中（`footer.html`）。接著將 `#disqus_thread` 加到你希望它顯示的地方。
+如果希望可以 display comment count，依照指示將<br>
+`<script id="dsq-count-scr" src="//shortname.disqus.com/count.js" async></script>`<br>
+加到 `body` 中（`footer.html`）。接著將 `#disqus_thread` 加到你希望它顯示的地方。
 
 要注意部分是在 localhost 看的時候似乎不能正常顯示，以及放上去的時候要等好一陣子才會跑出來。<br>
 如果一直沒跑出來，先不要跟我一樣以為自己寫錯，很可能只要
-<br>
+<br><br>
 ![](https://i.imgur.com/ydtJdpS.png)
-<br>
+<br><br>
 就會成功了。
