@@ -13,7 +13,7 @@ tags: [github, html]
 # thumbnail image for post
 img: ":github_pages_note.jpg"
 # disable comments on this page
-comments_disable: true
+#comments_disable: true
 
 # publish date
 date: 2023-02-23 14:47:08 +0900
