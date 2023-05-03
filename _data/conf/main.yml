@@ -191,7 +191,7 @@ side_and_top_nav_buttons:
 #  - projects:
 #    icon: "fa fa-cog"
   - links:
-    icon: "fa fa-book-open"
+    icon: "fa fa-book"
   - about:
     icon: "fa fa-user-o"
 
