@@ -150,6 +150,13 @@ about:
 
 # for links layout
 links:
+  title: Links
+  button_name: Links 
+  link_text: Web site
+  info_text: Info
+
+# for notes layout
+notes:
   title: Notes 
   button_name: Notes 
   link_text: Web site

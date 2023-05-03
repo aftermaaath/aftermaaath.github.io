@@ -1,7 +1,7 @@
 ---
-layout: links
+layout: notes 
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
-lng_pair: id_links
+lng_pair: id_notes
 
 # publish date (used for seo)
 # if not specified, site.time will be used.
