@@ -46,35 +46,31 @@ page_data:
 
   # To change order of the Categories, simply change order. (you don't need to change list order.)
   category:
-    - title: "NTHU"
-      type: id_nthu
+    - title: "Courses"
+      type: id_course
       color: "#BEBEBE"
-    - title: "Cartoon"
+    - title: "null"
       type: id_cartoon
       color: "#84C1FF"
-    - title: "Programming"
+    - title: "null2"
       type: id_programming
       color: "#95CACA"
 
   list:
     -
-    # NTHU
-    - type: id_nthu
-      title: ""
-      url: ""
-      info: ""
-    - type: id_nthu
+    # Courses 
+    - type: id_course
       title: ""
       url: ""
       info: ""
 
-    # Cartoon
+    # null
     - type: id_cartoon
       title: ""
       url: ""
       info: ""
 
-    # Programming
+    # null2 
     - type: id_programming
       title: ""
       url: ""
