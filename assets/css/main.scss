@@ -182,7 +182,7 @@
   @import "common/pager";
 {% endif %}
 
-{% if links_page_exist or projects_page_exist %}
+{% if links_page_exist or projects_page_exist or notes_page_exist %}
   @import "common/multipurpose-button";
 {% endif %}
 
