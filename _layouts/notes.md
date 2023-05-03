@@ -4,25 +4,25 @@
 # Licensed under MIT
 
 layout: default
-# Links page
+# Notes page
 ---
 {%- include multi_lng/get-lng-by-url.liquid -%}
 {%- assign lng = get_lng -%}
 
-{%- assign links_data = page.page_data | default: site.data.content.links[lng].page_data -%}
+{%- assign notes_data = page.page_data | default: site.data.content.notes[lng].page_data -%}
 
 <div class="multipurpose-container links-heading-container">
-  <h1>{{ links_data.main.header | default: "Links" }}</h1>
-  <p>{{ links_data.main.info | default: "No data, check page_data in [language]/tabs/notes.md front matter or _data/content/links/[language].yml" }}</p>
+  <h1>{{ notes_data.main.header | default: "Notes" }}</h1>
+  <p>{{ notes_data.main.info | default: "No data, check page_data in [language]/tabs/notes.md front matter or _data/content/links/[language].yml" }}</p>
   <div class="multipurpose-button-wrapper">
-    {%- for category in links_data.category %}
+    {%- for category in notes_data.category %}
       <a href="#{{ category.type }}" role="button" class="multipurpose-button link-buttons" style="background-color:{{ category.color }};">{{ category.title }}</a>
     {% endfor -%}
   </div>
 </div>
 
-{%- if site.data.conf.others.links.use_rows_as_link -%}{%- assign hover_class = "table-hover" -%}{%- endif -%}
-{%- for category in links_data.category %}
+{%- if site.data.conf.others.notes.use_rows_as_link -%}{%- assign hover_class = "table-hover" -%}{%- endif -%}
+{%- for category in notes_data.category %}
 <div class="multipurpose-container link-container" id="{{ category.type }}" style="border-left-color:{{ category.color }};">
   <h2>{{ category.title }}</h2>
   <table class="table {{ hover_class }}">
@@ -33,7 +33,7 @@ layout: default
       </tr>
     </thead>
     <tbody>
-      {%- for list in links_data.list %}
+      {%- for list in notes_data.list %}
         {%- if list.type != category.type %}{% continue %}{% endif -%}
         {%- if site.data.conf.others.links.use_rows_as_link -%}
           {%- capture link_onclick -%} onclick="window.open('{{ list.url }}', '_self');" style="cursor: pointer;" {%- endcapture -%}
