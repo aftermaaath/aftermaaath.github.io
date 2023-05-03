@@ -1,7 +1,7 @@
-a page just for fun.
+A page just for fun.
 
-subpage
-link: tabs/link.md<br>
+## Subpage
+notes: tabs/notes.md<br>
 about: tabs/about.md<br>
 post: \_post<br>
 home: 
