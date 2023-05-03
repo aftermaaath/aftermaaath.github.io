@@ -13,7 +13,7 @@ layout: default
 
 <div class="multipurpose-container links-heading-container">
   <h1>{{ links_data.main.header | default: "Links" }}</h1>
-  <p>{{ links_data.main.info | default: "No data, check page_data in [language]/tabs/links.md front matter or _data/content/links/[language].yml" }}</p>
+  <p>{{ links_data.main.info | default: "No data, check page_data in [language]/tabs/notes.md front matter or _data/content/links/[language].yml" }}</p>
   <div class="multipurpose-button-wrapper">
     {%- for category in links_data.category %}
       <a href="#{{ category.type }}" role="button" class="multipurpose-button link-buttons" style="background-color:{{ category.color }};">{{ category.title }}</a>
