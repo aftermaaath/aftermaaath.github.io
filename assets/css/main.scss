@@ -264,6 +264,10 @@
   @import "links/link-style";
 {% endif %}
 
+{% if notes_page_exist %}
+  @import "notes/link-style";
+{% endif %}
+
 {% if projects_page_exist %}
   @import "projects/project-container";
 {% endif %}

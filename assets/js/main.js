@@ -68,6 +68,9 @@ layout: util/compress_js
 {% assign pages = site.html_pages | where_exp: "item", "item.layout == 'links'" %}
 {% if pages.size > 0 %} {% assign links_page_exist = true %} {% endif %}
 
+{% assign pages = site.html_pages | where_exp: "item", "item.layout == 'notes'" %}
+{% if pages.size > 0 %} {% assign notes_page_exist = true %} {% endif %}
+
 {% assign pages = site.html_pages | where_exp: "item", "item.layout == 'projects'" %}
 {% if pages.size > 0 %} {% assign projects_page_exist = true %} {% endif %}
 
@@ -78,6 +81,10 @@ layout: util/compress_js
 
 {%- if links_page_exist and site.data.conf.others.links.use_rows_as_link -%}
   {% include_relative _js/links/open-url-in-new-page.js %}
+{%- endif %}
+
+{%- if notes_page_exist and site.data.conf.others.notes.use_rows_as_link -%}
+  {% include_relative _js/notes/open-url-in-new-page.js %}
 {%- endif %}
 
 {% if projects_page_exist %}
