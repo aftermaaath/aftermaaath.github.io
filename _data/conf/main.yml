@@ -189,11 +189,11 @@ side_and_top_nav_buttons:
   - archives:
     icon: "fa fa-archive"
   - projects:
-    icon: "fa fa-cog"
+    icon: "fa fa-book"
 #  - links:
 #    icon: "fa fa-book"
-  - notes:
-    icon: "fa fa-book"
+#  - notes:
+#    icon: "fa fa-book"
   - about:
     icon: "fa fa-user-o"
 

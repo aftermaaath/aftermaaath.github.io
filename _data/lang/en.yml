@@ -164,8 +164,8 @@ notes:
 
 # for projects layout
 projects:
-   title: Projects
-   button_name: Projects
+   title: Notes 
+   button_name: Notes 
    read_more_text: Read more
    read_less_text: Read less
 
