@@ -8,7 +8,7 @@ page_data:
     info: "Your Project page description."
     text_color: "white"
     # if you don't want to use background image, comment it. back_color will be activated.
-    img: ":projects-heading.jpg"
+    img: ":post_pic1.jpg"
     back_color: "lightblue"
 
   category:
@@ -27,7 +27,7 @@ page_data:
     - type: id_example
       project_name: "Example Project"
       project_excerpt: "Examples"
-      img: ":project1_thumb.jpg"
+      img: ":post_pic1.jpg"
       img_title: "img title1"
       date: "2021-03-13"
       post: |
@@ -175,7 +175,7 @@ page_data:
     - type: id_picture
       project_name: "Example Project"
       project_excerpt: "Picture"
-      img: ":project2_thumb.jpg"
+      img: ":post_pic1.jpg"
       img_title: "img title2"
       date: "2021-04-23"
       post: |
@@ -209,7 +209,7 @@ page_data:
     - type: id_quote
       project_name: "Example Project"
       project_excerpt: "Albert Einstein"
-      img: ":project2_thumb.jpg"
+      img: "post_pic1.jpg"
       img_title: "img title4"
       date: "2021-06-08"
       post: |
@@ -217,7 +217,7 @@ page_data:
     - type: id_quote
       project_name: "Example Project"
       project_excerpt: "Mae West"
-      img: ":project1_thumb.jpg"
+      img: "post_pic1.jpg"
       img_title: "img title5"
       date: "2021-08-20"
       post: |
@@ -225,7 +225,7 @@ page_data:
     - type: id_quote
       project_name: "Example Project"
       project_excerpt: "Mahatma Gandhi "
-      img: ":project2_thumb.jpg"
+      img: "post_pic1.jpg"
       img_title: "img title6"
       date: "2021-12-20"
       post: |
