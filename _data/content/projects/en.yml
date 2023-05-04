@@ -4,11 +4,11 @@
 ###########################################################
 page_data:
   main:
-    header: "Projects"
-    info: "Your Project page description."
+    header: "Notes"
+    info: "Your note page description."
     text_color: "white"
     # if you don't want to use background image, comment it. back_color will be activated.
-    img: ":post_pic1.jpg"
+    # img: ":post_pic1.jpg"
     back_color: "lightblue"
 
   category:
