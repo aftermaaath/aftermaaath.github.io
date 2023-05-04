@@ -1,7 +1,7 @@
 A page just for fun.
 
 ## Subpage
-notes: tabs/notes.md<br>
+notes: tabs/projects.md<br>
 about: tabs/about.md<br>
 post: \_post<br>
 home: 
