@@ -33,7 +33,6 @@ image_lazy_loader_on: true
 # to disable this page, simply set published: false or delete this file
 #published: false
 ---
-# you can move this content to front matter of [language]/tabs/projects.md
 ###########################################################
 #                Projects Page Data
 ###########################################################
