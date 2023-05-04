@@ -32,7 +32,7 @@ image_lazy_loader_on: true
 #search_engine_exclude: true
 # to disable this page, simply set published: false or delete this file
 #published: false
----
+
 ###########################################################
 #                Projects Page Data
 ###########################################################
