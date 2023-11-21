@@ -1,0 +1,66 @@
+---
+# multilingual page pair id, this must pair with translations of this page. (This name must be unique)
+lng_pair: id_Examples
+title: Test
+
+# post specific
+# if not specified, .name will be used from _data/owner/[language].yml
+author: aftermaaath
+# multiple category is not supported
+category: nthu-course
+# multiple tag entries are possible
+tags: [nthu]
+# thumbnail image for post
+img: ":ta-expr.jpg"
+# disable comments on this page
+#comments_disable: true
+
+# publish date
+date: 2023-11-21 20:18:06 +0900
+
+# seo
+# if not specified, date will be used.
+#meta_modify_date: 2022-02-10 08:11:06 +0900
+# check the meta_common_description in _data/owner/[language].yml
+#meta_description: ""
+
+# optional
+# please use the "image_viewer_on" below to enable image viewer for individual pages or posts (_posts/ or [language]/_posts folders).
+# image viewer can be enabled or disabled for all posts using the "image_viewer_posts: true" setting in _data/conf/main.yml.
+#image_viewer_on: true
+# please use the "image_lazy_loader_on" below to enable image lazy loader for individual pages or posts (_posts/ or [language]/_posts folders).
+# image lazy loader can be enabled or disabled for all posts using the "image_lazy_loader_posts: true" setting in _data/conf/main.yml.
+#image_lazy_loader_on: true
+# exclude from on site search
+#on_site_search_exclude: true
+# exclude from search engines
+#search_engine_exclude: true
+# to disable this page, simply set published: false or delete this file
+published: true
+---
+
+<!-- outline-start -->
+在大學的一些課上當助教的心得。
+<!-- outline-end -->
+
+##### 計算機程式設計 / 楊舜仁
+大二的時候擔任計算機程式設計一、二的出題助教。在這之前其實沒有什麼出題經驗，所以算是抱著一個來學習的心接這份工作~~（拿到的薪水也告訴我這個心態是正確的）~~。
+
+當初被問到要不要當助教也只是因為有修過這門課 && 是 APCS 組入學的。在要卸任的時候教授有問我這邊有沒有推薦的學弟妹，做為下一任助教的人選，所以如果想當的話可能可以問問該年度的出題助教吧。
+
+一開始出題還會感到新奇，後面就越來越無聊了，也慢慢開始覺得這份工作吃力不討好。<br>
+在這裡的出題是為了鑑別，範圍就是死死的、上課教的東西，所以很難放什麼有趣的題目，九成會被退件，或是被要求要寫很冗的 hint 給同學做參考。<br>
+大部分人也只希望自己可以拿好分數，沒什麼人關心題目出得漂不漂亮，只會覺得助教都好狠。越到後面就越沒有熱忱與動力做這份工作。
+
+薪資也不是很優渥，又常常很累，因為題目的限制很多。不過就當作我是來學東西的。
+
+教授其實蠻認真看待出題助教出的這些題目。他每一題都會自己看過、做難度評估、再跟助教來回溝通要更改的部分。大部分的時候都是調降難度，教授真的沒有很狠心。
+
+問我要不要再當一年，我一定說不要。<br>
+體驗一次就夠了。
+
+<br>
+
+##### 離散數學 / 韓永楷
+這學期當完再來補。
+
