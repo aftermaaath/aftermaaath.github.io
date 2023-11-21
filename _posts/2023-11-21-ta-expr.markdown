@@ -1,7 +1,7 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_Examples
-title: Test
+title: 助教心得
 
 # post specific
 # if not specified, .name will be used from _data/owner/[language].yml
@@ -42,6 +42,8 @@ published: true
 <!-- outline-start -->
 在大學的一些課上當助教的心得。
 <!-- outline-end -->
+
+<br>
 
 ##### 計算機程式設計 / 楊舜仁
 大二的時候擔任計算機程式設計一、二的出題助教。在這之前其實沒有什麼出題經驗，所以算是抱著一個來學習的心接這份工作~~（拿到的薪水也告訴我這個心態是正確的）~~。
