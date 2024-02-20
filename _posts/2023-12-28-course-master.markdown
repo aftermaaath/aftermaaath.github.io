@@ -72,7 +72,7 @@ loading 不會太重，學到的東西多，考試又不難準備。上課與計
 
 <br>
 
-[Imgur](https://imgur.com/4U5WA4z){:data-align="center"}
+![](https://i.imgur.com/4U5WA4z.png){:data-align="center"}
 
 <br>
 
@@ -81,7 +81,7 @@ loading 不會太重，學到的東西多，考試又不難準備。上課與計
 
 <br>
 
-[Imgur](https://imgur.com/h9L1mtz){:data-align="center"}
+![](https://i.imgur.com/h9L1mtz.png){:data-align="center"}
 
 <br>
 
