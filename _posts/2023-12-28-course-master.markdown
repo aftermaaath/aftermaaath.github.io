@@ -72,7 +72,7 @@ loading 不會太重，學到的東西多，考試又不難準備。上課與計
 
 <br>
 
-![image](https://hackmd.io/_uploads/rkK_cw1nT.png)
+![image](https://imgur.com/KtqRwzS)
 
 <br>
 
@@ -81,7 +81,7 @@ loading 不會太重，學到的東西多，考試又不難準備。上課與計
 
 <br>
 
-![image](https://hackmd.io/_uploads/S1P2qDkn6.png)
+![image](https://imgur.com/a/gGsh6N7)
 
 <br>
 
