@@ -13,7 +13,7 @@ tags: [nthu, course]
 # thumbnail image for post
 img: ":course-grade2.jpg"
 # disable comments on this page
-#comments_disable: true
+comments_disable: true
 
 # publish date
 date: 2023-01-31 17:11:44 +0900
