@@ -13,7 +13,7 @@ tags: [nthu]
 # thumbnail image for post
 img: ":ta-expr.jpg"
 # disable comments on this page
-#comments_disable: true
+comments_disable: true
 
 # publish date
 date: 2023-11-21 20:18:06 +0900
